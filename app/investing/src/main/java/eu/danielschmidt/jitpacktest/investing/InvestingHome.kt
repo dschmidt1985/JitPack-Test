@@ -13,6 +13,7 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
+import eu.danielschmidt.jitpack.common.getSharedText
 
 @Composable
 fun InvestingHome() {
@@ -23,7 +24,7 @@ fun InvestingHome() {
             .wrapContentSize(Alignment.Center)
     ) {
         Text(
-            text = "Investing Home",
+            text = "Investing Home v0.3 + ${getSharedText()}",
             fontWeight = FontWeight.Bold,
             color = Color.White,
             modifier = Modifier.align(Alignment.CenterHorizontally),

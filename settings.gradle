@@ -19,3 +19,4 @@ rootProject.name = "JitPack Test"
 include ':app'
 include ':app:banking'
 include ':app:investing'
+include ':app:common'
