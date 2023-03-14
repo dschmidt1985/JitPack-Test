@@ -24,7 +24,7 @@ fun InvestingHome() {
             .wrapContentSize(Alignment.Center)
     ) {
         Text(
-            text = "Investing Home v0.12 + ${getSharedText()}",
+            text = "Investing Home v0.13 + ${getSharedText()}",
             fontWeight = FontWeight.Bold,
             color = Color.White,
             modifier = Modifier.align(Alignment.CenterHorizontally),

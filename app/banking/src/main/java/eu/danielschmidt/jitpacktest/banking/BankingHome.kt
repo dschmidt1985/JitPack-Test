@@ -24,7 +24,7 @@ fun BankingHome() {
             .wrapContentSize(Alignment.Center)
     ) {
         Text(
-            text = "Banking Home v 0.12 + ${getSharedText()}",
+            text = "Banking Home v 0.13 + ${getSharedText()}",
             fontWeight = FontWeight.Bold,
             color = Color.White,
             modifier = Modifier.align(Alignment.CenterHorizontally),
