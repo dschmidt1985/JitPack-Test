@@ -47,7 +47,7 @@ dependencies {
     implementation "androidx.compose.ui:ui:$compose_ui_version"
     implementation "androidx.compose.ui:ui-tooling-preview:$compose_ui_version"
     implementation 'androidx.compose.material:material:1.3.1'
-    implementation 'com.github.dschmidt1985.JitPack-Test:android-banking-ui:0.6'
+    implementation 'com.github.dschmidt1985.JitPack-Test:common:0.6'
 //    implementation project(path: ':app:common')
 }
 
@@ -59,8 +59,8 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'eu.danielschmidt.jitpacktest'
-                artifactId = 'android-investing-ui'
-                version = '0.7'
+                artifactId = 'common'
+                version = '0.8'
             }
         }
     }
