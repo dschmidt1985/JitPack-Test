@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JitPack Test</string>
+    <string name="banking">Banking</string>
+    <string name="investing">Investing</string>
+</resources>
