@@ -1,5 +1,5 @@
 package eu.danielschmidt.jitpack.common
 
 fun getSharedText() : String {
-    return "Common Shared V 0.11"
+    return "Common Shared V 0.12"
 }
